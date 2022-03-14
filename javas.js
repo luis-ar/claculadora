@@ -66,7 +66,7 @@ if (operacion == 6 || operacion == 7) {
     }
     potencia(num1, num2);
   }
-} else document.write(" al introducir la operacion");
+} else document.write("Error al introducir la operacion");
 
 // class celulares {
 //   constructor(color, peso, rdp, rdc, ram) {
