@@ -14,13 +14,13 @@ if (operacion == 6 || operacion == 7) {
   if (operacion == 6) {
     function raizcuadrada(num1) {
       resultado = Math.sqrt(num1);
-      document.write(resultado);
+      document.write("√" + num1 + "=" + resultado);
     }
     raizcuadrada(num1);
   } else {
     function raizcubica(num1) {
       resultado = Math.cbrt(num1);
-      document.write(resultado);
+      document.write("∛" + num1 + "=" + resultado);
     }
     raizcubica(num1);
   }
@@ -38,31 +38,31 @@ if (operacion == 6 || operacion == 7) {
   if (operacion == 1) {
     function suma(num1, num2) {
       resultado = num1 + num2;
-      document.write(resultado);
+      document.write(num1 + "+" + num2 + "=" + resultado);
     }
     suma(num1, num2);
   } else if (operacion == 2) {
     function resta(num1, num2) {
       resultado = num1 - num2;
-      document.write(resultado);
+      document.write(num1 + "-" + num2 + "=" + resultado);
     }
     resta(num1, num2);
   } else if (operacion == 3) {
     function multiplicacion(num1, num2) {
       resultado = num1 * num2;
-      document.write(resultado);
+      document.write(num1 + "x" + num2 + "=" + resultado);
     }
     multiplicacion(num1, num2);
   } else if (operacion == 4) {
     function division(num1, num2) {
       resultado = num1 / num2;
-      document.write(resultado);
+      document.write(num1 + "/" + num2 + "=" + resultado);
     }
     division(num1, num2);
   } else {
     function potencia(num1, num2) {
       resultado = num1 ** num2;
-      document.write(resultado);
+      document.write(num1 + "^" + num2 + "=" + resultado);
     }
     potencia(num1, num2);
   }
