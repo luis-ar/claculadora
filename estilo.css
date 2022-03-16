@@ -68,9 +68,6 @@ body {
 
 @media only screen and (max-width: 700px) {
   .caja1 {
-    display: none;
-  }
-  .caja2 {
     display: block;
     background-color: crimson;
     width: 300px;
